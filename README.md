@@ -10,10 +10,10 @@ Deploy a Python web application on GKE using CI/CD Jenkins Pipeline using the fo
 3. Deploy the backend application on GKE using the Jenkins pipeline
 
 Infastructure:
+```
 Service-account
 VPC
 2 private-subnets (management, restricted)
-```
 nat
 cloud-router
 firewall (Allow ssh and http)
