@@ -62,6 +62,8 @@ build the pipeline with pipeline script and add this repo https://github.com/Kar
 ```
 take the ip of the second loadbalancer it will open the app page
 ```
+# Jenkins link: http://34.28.135.96:8080/
+# App link: http://35.193.50.30/
 
   
   
