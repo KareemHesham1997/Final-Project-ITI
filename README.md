@@ -56,7 +56,7 @@ install jenkins
 6) Build the pipeline
 ```
 put yor github and dockerhub credentials
-build the pipeline with pipeline script and add this repo https://github.com/KareemHesham1997/Simple-App-CI-CDt.
+build the pipeline with pipeline script and add this repo https://github.com/KareemHesham1997/Simple-App-CI-CD.
 ```
 7) Connect to the App
 ```
