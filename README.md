@@ -45,6 +45,23 @@ GKE
  ```
  kubectl apply -f "yaml file name".yaml
  ```
-5) 
+5) Connect to the jenkins
+
+```
+take the ip of the loadbalancer it will open the jenkins page
+kubectl get pods -n jenkins
+kubectl exec "name of the pod" -it -n jenkins -- /bin/bash
+install jenkins
+```
+6) Build the pipeline
+```
+put yor github and dockerhub credentials
+build the pipeline with pipeline script and add this repo https://github.com/KareemHesham1997/Simple-App-CI-CDt.
+```
+7) Connect to the App
+```
+take the ip of the second loadbalancer it will open the app page
+```
+
   
   
