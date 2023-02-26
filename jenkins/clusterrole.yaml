@@ -8,14 +8,4 @@ rules:
   resources: ["*"]
   verbs: ["*"]
 - nonResourceURLs: ["*"]
-  verbs: ["*"]apiVersion: rbac.authorization.k8s.io/v1
-kind: ClusterRole
-metadata:
-  name: jenkins-cr
-  namespace: jenkins
-rules:
-- apiGroups: ["*"]
-  resources: ["*"]
-  verbs: ["*"]
-- nonResourceURLs: ["*"]
   verbs: ["*"]
